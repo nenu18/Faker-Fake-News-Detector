@@ -96,44 +96,7 @@ public class MainActivity extends AppCompatActivity {
         this.empty.show();
     }
 
-    /* JADX WARNING: inconsistent code. */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
-    public boolean onOptionsItemSelected(android.view.MenuItem r5) {
-        /*
-        r4 = this;
-        r3 = 1;
-        r2 = r5.getItemId();
-        switch(r2) {
-            case 2131558572: goto L_0x000d;
-            case 2131558573: goto L_0x002a;
-            case 2131558574: goto L_0x0017;
-            default: goto L_0x0008;
-        };
-    L_0x0008:
-        r2 = super.onOptionsItemSelected(r5);
-        return r2;
-    L_0x000d:
-        r1 = new android.content.Intent;
-        r2 = com.rainsstudios.faker.Main2Activity.class;
-        r1.<init>(r4, r2);
-        r4.startActivity(r1);
-    L_0x0017:
-        r0 = new android.content.Intent;
-        r2 = "android.intent.action.VIEW";
-        r0.<init>(r2);
-        r2 = "https://play.google.com/store/apps/details?id=com.rainsstudios.faker";
-        r2 = android.net.Uri.parse(r2);
-        r0.setData(r2);
-        r4.startActivity(r0);
-    L_0x002a:
-        r4.moveTaskToBack(r3);
-        r2 = android.os.Process.myPid();
-        android.os.Process.killProcess(r2);
-        java.lang.System.exit(r3);
-        goto L_0x0008;
-        */
-        throw new UnsupportedOperationException("Method not decompiled: com.rainsstudios.faker.MainActivity.onOptionsItemSelected(android.view.MenuItem):boolean");
-    }
+       }
 
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(C0500R.menu.main_menu, menu);
