@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activity_main" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/checkButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Check" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:onClick="checkFake" />
+    <TextView android:textSize="25.0dip" android:id="@id/resultTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="54.0dip" android:text="Result" android:layout_below="@id/checkButton" android:layout_centerHorizontal="true" />
+    <com.google.android.gms.ads.AdView android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="@string/banner_ad_unit_id" />
+    <EditText android:textSize="25.0dip" android:gravity="center" android:id="@id/editText" android:layout_width="wrap_content" android:layout_height="150.0dip" android:layout_marginTop="21.0dip" android:hint="Enter URL" android:ems="10" android:singleLine="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:inputType="textPersonName" />
+</RelativeLayout>
